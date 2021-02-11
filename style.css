@@ -1,0 +1,363 @@
+.home {
+    width:100%;
+    height: 100vh;
+    border: 1px solid black;
+    background: url("img/background.png");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.nav-link {
+    color:rgba(207, 207, 207, 1) !important;
+    font-family: 'Buenard', serif;
+    position: relative;
+    padding: 0px;
+}
+
+.navbar-toggler {
+    background: rgba(221, 221, 221, 1) !important;
+    
+}
+.message {
+    width: 100%;
+    height: auto;
+    background: url("img/bacground1.jpg");
+    display: flex;
+    justify-content: center;
+    background-attachment: fixed !important;
+    background-position: center;
+    background-size: cover;
+
+    
+}
+.nav-item {
+    padding-right:30px;
+    
+}
+.txt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 94%;
+    
+}
+.note {
+    margin: 150px;
+    height: 50%;
+}
+
+h1 {
+    font-size: 90px;
+    letter-spacing: 0.4em;
+    font-family: 'Big Shoulders Display', cursive;
+    color: rgba(221, 221, 221, 1);
+    border-bottom: 1px solid white;
+    text-align: center;
+    margin: 0px;
+}
+p {
+    font-size: 30px;
+    letter-spacing: 0.3em;
+    text-align: center;
+    color: rgba(221, 221, 221, 1);
+    font-family: 'Bubbler One', sans-serif;
+}
+@media(max-width: 1000px) { 
+    h1  { 
+        font-size: 30px;
+    }
+}
+@media(max-width: 1000px) {
+    p {
+        font-size: 9px;
+       
+    }
+}
+h2 {
+    font-family: 'Cormorant Garamond';
+    color: rgba(221, 221, 221, 1);
+    text-align: center;
+    font-size: 50px;
+}
+.note p {
+    font-family: 'Cormorant Garamond';
+    font-size: 19px;
+    color: rgba(221, 221, 221, 1)   ;
+}
+@media(max-width: 1000px) {
+    p1 {
+        font-size: 12px;}
+       
+}
+@media(max-width: 1000px) { 
+    h2  { 
+        font-size: 30px;
+    }
+    }
+.gallery {
+    width: 100%;
+    height: auto;
+    background: url("img/background2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+
+}
+.house {
+    opacity: 72%;
+    padding: 15px;
+    transition: all 0.2s ease-out; 
+}
+h3 {
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Big Shoulders Display', cursive;
+    color: rgba(221, 221, 221, 1);
+    letter-spacing: 0.1em;
+    padding: 20px 0px 0px 0px ;
+}
+.house:hover {
+    transition: 10ms;
+    color: white;
+    opacity: 110%;
+    transform: scale3d(1.2,1.2,5);
+    
+}
+.about {
+    width: 100%;
+    height: auto;
+    background: url("img/bacground1.jpg");
+    background-attachment: fixed !important;
+    background-size: cover;
+    background-position: center;
+}
+.work {
+    
+    max-width: 500px;
+    max-height: auto;
+    padding: 0px;   
+    margin: 20px 80px 20px 80px; 
+    padding: 20px 0;
+}
+.au {
+   display:flex;
+   justify-content:center;
+   align-items: center;
+   height: 90%;
+   flex-wrap: wrap;    
+   position: relative;
+   padding: 0px;
+    
+}
+.logos {
+   text-align: center;
+}
+h4 {
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Big Shoulders Display', cursive;
+    color: rgba(221, 221, 221, 1);
+    letter-spacing: 0.1em;
+    margin: 0px;
+    padding: 20px 0px 0px 0px ;
+}
+@media(max-width: 1000px) { 
+    h4  { 
+        font-size: 30px;
+    }
+}
+.work p {
+    text-align: center;
+    color: rgba(221, 221, 221, 1);
+    font-family: 'Cormorant Garamond';
+    font-size: 1rem;
+}
+@media(max-width: 320px) {
+  .work p {
+        font-size:9px;}
+       
+}
+.contact {
+    background: url("img/contact.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    min-height: 100vh;
+    padding: 20px 0;
+}
+h5 {
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Big Shoulders Display', cursive;
+    color: rgba(221, 221, 221, 1);
+    letter-spacing: 0.1em;
+    margin: 0px;
+}
+@media(max-width: 1000px) { 
+    h5  { 
+        font-size: 30px;
+    }
+}
+.contact p {
+   color: rgba(221, 221, 221, 1);
+   font-family: 'Big Shoulders Display', cursive;
+   font-size: 20px;
+   letter-spacing: 0.2em;
+   padding-bottom: 20px;
+}
+@media(max-width: 320px) {
+    .contant p {
+        font-size:9px;}
+       
+}
+.social-text {
+    width:  50%;
+    height: auto;
+}
+.info {
+     width: 50%;
+    height: 364px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: end;
+    padding: 20px 0;
+}
+.con-holder {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+ 
+}
+h6 {
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Big Shoulders Display', cursive;
+    color:rgba(221, 221, 221, 1);
+    letter-spacing: 0.1em;
+    margin: 0px;
+}
+@media(max-width: 320px) {
+    h6 {
+        font-size:30px;}
+       
+}
+.social-text p {
+    text-align: center;
+     color: rgba(221, 221, 221, 1);
+    font-family: 'Cormorant Garamond';
+    font-size: 15px;
+    padding: 0px;
+    margin: 0px;
+}
+@media(max-width: 320px) {
+    .social-text p {
+        font-size:8px;}
+       
+}
+.info {
+    display: flex;
+    justify-content: flex-start;
+    height: auto;
+    padding: 0px;
+    min-width: fit-content;
+}
+.info-logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    color: white;
+    width: 100%;
+    align-items: center;
+    padding: 25px 0;
+}
+@media(max-width: 1000px) {
+    .info-logo {
+        font-size:12px;}
+       
+}
+.info-logo p {
+    text-align: right;
+    width: auto;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+@media(max-width: 320px) {
+    .info-logo p {
+        font-size:6px;}
+    .contact {
+        min-height: 100vh;
+    }  
+
+}
+iframe {
+    max-height: 350px;
+}
+.info-logo a {
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+}
+.footer {
+    width: 100%;
+    height: 20vh;
+    background-color: rgb(39, 39, 39);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background: url("img/bacground1.jpg");
+}
+.footer p {
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    padding: 50px 0px 0px 0px;
+    margin: 0px;
+
+}
+.fa-twitter {
+    color:rgba(221, 221, 221, 1);
+    text-decoration: none !important;
+    padding: 0px 20px 0px 0px;
+}
+.fa-facebook {
+    color: rgba(221, 221, 221, 1);
+    text-decoration: none !important;
+    padding: 0px 20px 0px 0px;
+}
+.fa-rss {
+    color: rgba(221, 221, 221, 1);
+    text-decoration: none !important;
+    padding: 0px 20px 0px 0px;
+}
+.fa-twitter:hover {
+    color:rgba(221, 221, 221, 1);
+}
+.fa-facebook:hover {
+    color:rgba(221, 221, 221, 1);
+}
+.fa-rss:hover {
+    color:rgba(221, 221, 221, 1);
+    
+}
+.contactr {
+    display: flex !important;
+    justify-content: center;
+    padding: 20px 0px 0px 0px !important;
+   
+}
+@media (max-width: 320px) {
+    .contactr {
+        font-size: 10px;
+    }
+}
